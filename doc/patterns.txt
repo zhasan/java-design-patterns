@@ -29,7 +29,7 @@ between them. We need to take a closer look at the way those objects are
 interconnected. The following 11 patterns fall into this category.
 
 + Observer Pattern
-Template Method Pattern
++ Template Method Pattern
 Command Pattern
 Iterator Pattern
 State Pattern
