@@ -15,12 +15,12 @@ make relatively large structures. Inheritance mechanisms are mostly used to comb
 interfaces or implementations. The following seven patterns fall into this category:
 
 + Proxy Pattern
-Flyweight Pattern
++ Flyweight Pattern
 + Bridge Pattern
 + Facade Pattern
 + Decorator Pattern
 + Adapter Pattern
-Composite Pattern
++ Composite Pattern
 
 C. Behavioral Patterns:
 Here our concentration is on algorithms and the assignment of the critical
@@ -28,7 +28,7 @@ responsibilities among the objects. We also need to focus on the communication
 between them. We need to take a closer look at the way those objects are
 interconnected. The following 11 patterns fall into this category.
 
-Observer Pattern
++ Observer Pattern
 Template Method Pattern
 Command Pattern
 Iterator Pattern
