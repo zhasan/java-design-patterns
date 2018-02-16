@@ -5,13 +5,13 @@ import java.util.Map;
 
 class RobotFactory {
 
-    Map<String, IRobot> shapes = new HashMap<String, IRobot>();
+    private Map<String, IRobot> shapes = new HashMap<>();
 
-    public int TotalObjectsCreated() {
+    int TotalObjectsCreated() {
         return shapes.size();
     }
 
-    public IRobot GetRobotFromFactory(String robotType) throws Exception {
+    IRobot GetRobotFromFactory(String robotType) throws Exception {
 
         IRobot robotCategory;
         if (shapes.containsKey(robotType)) {
