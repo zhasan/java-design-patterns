@@ -32,7 +32,7 @@ interconnected. The following 11 patterns fall into this category.
 + Template Method Pattern
 + Command Pattern
 + Iterator Pattern
-State Pattern
++ State Pattern
 Mediator Pattern
 Strategy Pattern
 Chain of Responsibility Pattern
