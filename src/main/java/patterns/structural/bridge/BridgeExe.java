@@ -1,6 +1,6 @@
 package patterns.structural.bridge;
 
-public class BridgeExe {
+class BridgeExe {
 
     public static void main(String[] args) {
         System.out.println("*****BRIDGE PATTERN*****");

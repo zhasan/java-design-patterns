@@ -2,7 +2,7 @@ package patterns.structural.adapter;
 
  class Calculator {
 
-    Rect rectangle;
+    private Rect rectangle;
 
     public double getArea(Rect rectangle) {
 

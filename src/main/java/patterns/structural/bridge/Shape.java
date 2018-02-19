@@ -2,9 +2,9 @@ package patterns.structural.bridge;
 
  abstract class Shape {
 
-     protected IColor color;
+     IColor color;
 
-     protected Shape(IColor color) {
+     Shape(IColor color) {
 
          this.color = color;
      }

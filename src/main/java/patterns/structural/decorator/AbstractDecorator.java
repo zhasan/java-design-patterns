@@ -1,7 +1,7 @@
 package patterns.structural.decorator;
 
 abstract class AbstractDecorator extends Component{
-    protected Component component;
+    private Component component;
 
     @Override
     public void doJob() {

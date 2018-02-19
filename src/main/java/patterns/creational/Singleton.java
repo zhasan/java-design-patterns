@@ -1,4 +1,4 @@
 package patterns.creational;
 
-public class Singleton {
+class Singleton {
 }

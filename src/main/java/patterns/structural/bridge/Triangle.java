@@ -1,7 +1,7 @@
 package patterns.structural.bridge;
 
-public class Triangle extends Shape {
-    protected Triangle(IColor color) {
+class Triangle extends Shape {
+    Triangle(IColor color) {
         super(color);
     }
     @Override

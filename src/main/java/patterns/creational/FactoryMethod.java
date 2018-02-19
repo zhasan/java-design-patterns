@@ -1,4 +1,4 @@
 package patterns.creational;
 
-public class FactoryMethod {
+class FactoryMethod {
 }

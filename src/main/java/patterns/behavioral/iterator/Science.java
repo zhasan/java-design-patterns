@@ -23,7 +23,7 @@ public class Science implements ISubject {
         private LinkedList<String> subjects;
         private int position;
 
-        public ScienceIterator(LinkedList<String> subjects) {
+        ScienceIterator(LinkedList<String> subjects) {
             this.subjects = subjects;
             position = 0;
         }

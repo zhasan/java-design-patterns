@@ -3,7 +3,7 @@ package patterns.structural.facade;
  class RobotFacade {
      private RobotColor rcolor;
      private RobotMetal rmetal;
-     RobotBody rbody;
+     private RobotBody rbody;
 
      public RobotFacade() {
           rcolor = new RobotColor();

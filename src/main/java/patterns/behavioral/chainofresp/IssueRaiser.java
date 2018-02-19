@@ -1,7 +1,7 @@
 package patterns.behavioral.chainofresp;
 
 class IssueRaiser {
-    public IReceiver setFirstReceiver;
+    private IReceiver setFirstReceiver;
 
     public IssueRaiser(IReceiver setFirstReceiver) {
 

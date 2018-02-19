@@ -1,6 +1,6 @@
 package patterns.behavioral.iterator;
 
-public class IteratorExe {
+class IteratorExe {
     public static void main(String[] args) {
         System.out.println("Demo");
         ISubject Sc_subject = new Science();

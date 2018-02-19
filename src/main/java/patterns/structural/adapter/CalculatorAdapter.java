@@ -2,8 +2,8 @@ package patterns.structural.adapter;
 
  class CalculatorAdapter {
 
-    Calculator calculator;
-    Triangle triangle;
+    private Calculator calculator;
+    private Triangle triangle;
 
     public double getArea(Triangle triangle) {
         calculator = new Calculator();

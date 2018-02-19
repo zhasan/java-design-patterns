@@ -1,6 +1,6 @@
 package patterns.structural.facade;
 
-public class FacadeExe {
+class FacadeExe {
     public static void main(String[] args) {
         System.out.println("***Facade Pattern Demo***");
         RobotFacade robotFacade1 = new RobotFacade();

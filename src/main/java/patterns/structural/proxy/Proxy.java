@@ -2,7 +2,7 @@ package patterns.structural.proxy;
 
  class Proxy extends Subject{
 
-    ConcreteSubject cs;
+    private ConcreteSubject cs;
 
     @Override
     public void doSomeWork() {

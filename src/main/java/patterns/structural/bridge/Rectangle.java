@@ -1,7 +1,7 @@
 package patterns.structural.bridge;
 
-public class Rectangle extends Shape {
-    protected Rectangle(IColor color) {
+class Rectangle extends Shape {
+    Rectangle(IColor color) {
         super(color);
     }
 
