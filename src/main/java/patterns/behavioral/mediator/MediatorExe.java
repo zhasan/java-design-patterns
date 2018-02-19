@@ -58,4 +58,16 @@ handy in such a scenario.
     So, when a program consists of many classes and the logic is distributed among them, it becomes
 harder to read and maintain. If we need to make some kind of change, it becomes a challenging task for us.
 The mediator pattern is handy in such a scenario.
+
+    Note
+1. Now you should have a clear idea that this pattern is very useful when we observe
+complex communications in the system. Communication (among objects) is
+much simpler with this pattern.
+2. This pattern reduces the number of subclasses in the system and it also enhances
+the loose coupling in the system.
+3. Here the “many-to-many” relationship is replaced with the “one-to-many”
+relationship—which is much easier to read and understand.
+4. We can provide a centralized control with this pattern.
+5. Sometimes the encapsulation process becomes tricky and we find it difficult to
+maintain or implement.
  */

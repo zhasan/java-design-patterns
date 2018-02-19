@@ -53,10 +53,26 @@ Then we can make a chain as follows: whenever our main application finds an erro
 and forward the error with the hope that one of those handlers will handle it. The request will first come to
 FaxErrorhandler—if it finds that it is a fax issue, it’ll handle the request; otherwise, it will forward the issue to
 EmailErrorHandler.
-Note that here our chain ends with EmailErrorHandler. But if we need to handle another type of issue
+    Note that here our chain ends with EmailErrorHandler. But if we need to handle another type of issue
 (e.g., Authentication), we can make an AuthenticationErrorHandler and put it after EmailErrorHandler.
 So, now, whenever the issue cannot be fixed by EmailErrorHandler, the issue can be forwarded to
 AuthenticationErrorHandler and the chain will end there.
 Thus, the bottom line is as follows: the chain will end if the issue is being processed by some handler or
 there are no more handlers to process it (i.e., we have reached the end of the chain).
+
+    Note
+1. This pattern is used when we issue a request without specifying the receiver. We
+expect any of our receivers to handle that request.
+2. There may be situation in which more than one receiver can handle the request
+but the receivers do not know the priority. However, we want to handle the
+request by the receiver based on the priority. This pattern can help us to design
+such a scenario.
+3. We may need to have the capability to specify objects (that can handle a request)
+in runtime.
+4. We can either define a new link or use an existing link when we need to
+implement a successor chain.
+5. Sometimes we can try to implement an automatic mechanism for forwarding
+a request. The advantage is that we can avoid implementing a specific
+forwarding mechanism from one point to another point in our chain. Smalltalk’s
+doesnotUnderstand is a typical example in this context.
  */
