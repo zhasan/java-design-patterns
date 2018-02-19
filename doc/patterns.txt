@@ -33,9 +33,9 @@ interconnected. The following 11 patterns fall into this category.
 + Command Pattern
 + Iterator Pattern
 + State Pattern
-Mediator Pattern
-Strategy Pattern
-Chain of Responsibility Pattern
++ Mediator Pattern
++ Strategy Pattern
++ Chain of Responsibility Pattern
 Visitor Pattern
 Interpreter Pattern
 Memento Pattern
